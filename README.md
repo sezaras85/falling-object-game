@@ -1,9 +1,9 @@
 ![Oyun Ekran Görüntüsü](https://github.com/sezaras85/falling-object-game/blob/main/succinct%20pic.jpg?raw=true)
 ![Oyun Ekran Görüntüsü](https://github.com/sezaras85/falling-object-game/blob/main/game2.png?raw=true)
 
----
 
-```md
+
+
 # 🎮 Falling Object Catch Game  
 
 Falling Object Catch Game is a fun and interactive web-based game where players catch falling objects to score points. The game features **SP1 Zero-Knowledge Proof (ZKP) integration**, ensuring that scores can be verified securely and transparently.
@@ -17,7 +17,7 @@ The game is **hosted on Netlify**, allowing players to access it **24/7** withou
 ✅ **24/7 availability** via Netlify hosting  
 ✅ Lightweight, fast, and easy to play  
 
----
+
 
 ## 🛠️ Technologies Used  
 - **HTML5** - Structure of the game  
@@ -26,7 +26,7 @@ The game is **hosted on Netlify**, allowing players to access it **24/7** withou
 - **SP1** - Zero-Knowledge Proof (ZKP) based score verification  
 - **Netlify** - Hosting for global access  
 
----
+
 
 ## 📌 Requirements  
 
@@ -37,7 +37,7 @@ Before setting up the project, ensure you have the following installed on your s
 - **SP1** (Zero-Knowledge Proof system)  
 - **Netlify account** (for deployment)  
 
----
+
 
 ## 📥 Clone the Repository  
 To get started, clone this repository to your local machine:  
