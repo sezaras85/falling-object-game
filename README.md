@@ -102,6 +102,35 @@ Then, build the SP1 program:
 ```bash
 cargo build --release --target=wasm32-unknown-unknown
 ```
+```bash
+cd /root/falling-object-game/backend
+nano server.js
+```
+
+```bash
+const express = require('express');
+const cors = require('cors');
+
+const app = express();
+app.use(cors());
+app.use(express.json());
+
+app.get('/', (req, res) => {
+    res.send('Backend is running!');
+});
+
+const PORT = 3000;
+app.listen(PORT, () => {
+    console.log(`Server is running on port ${PORT}`);
+});
+```
+```bash
+npm install express cors
+node server.js
+```
+
+
+
 
 ---
 
